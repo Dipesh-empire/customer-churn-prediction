@@ -17,3 +17,22 @@ This project uses both **Logistic Regression** and a **Transformer-based deep le
   - scikit-learn
   - torch (PyTorch)
   - sklearn.metrics for evaluation
+
+##  Model Comparison
+
+| Metric    | Logistic Regression | Transformer Model |
+|-----------|---------------------|-------------------|
+| Accuracy  | 0.79                | 0.78              |
+| Precision | 0.62                | 0.63              |
+| Recall    | 0.51                | 0.46              |
+| F1 Score  | 0.56                | 0.53              |
+
+After comparing both model performance:
+- Both models had similar overall accuracy.
+- The Logistic Regression model was better at catching customers who are likely to leave.
+- It also offered a better balance between correct predictions and false alarms.
+
+## Recommendation
+Although the Transformer is more complex and a revised model, Logistic Regression performed better in this case.
+It is faster, easier to interpret, and more effective for this customer churn prediction task.
+
